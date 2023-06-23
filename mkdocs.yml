@@ -1,0 +1,102 @@
+site_name: GRS Documentation
+site_url: https://grs.999857.xyz
+# https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository
+
+repo_url: https://github.com/PencilNavigator/grs-docs
+repo_name: PencilNavigator/grs-docs
+edit_uri: edit/main/docs/
+site_description: Documentation for project Github Readme Stats.
+
+copyright: >
+  Copyright &copy; 2023 PencilNavigator & Contributors
+
+# Theme Settings
+theme:
+  # https://squidfunk.github.io/mkdocs-material/customization/#setup-and-theme-structure
+  name: material
+  custom_dir: overrides
+
+  features:
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
+    - navigation.instant
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
+    - toc.follow
+
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+    - content.action.edit
+    - content.action.view
+
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#configuration
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts
+  font:
+    text: Archivo
+    code: Chivo Mono
+
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language
+  language: en
+
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons
+  logo: assets/images/icon.svg
+  favicon: assets/images/icon.svg
+
+  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+  icon:
+    edit: material/file-edit
+    view: material/file-eye
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PencilNavigator
+      name: PencilNavigator on GitHub
+
+#
+# Plugins
+#
+plugins:
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
