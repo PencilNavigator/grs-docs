@@ -15,5 +15,5 @@ For example, if my username is "octocat", i will fill my username like this:
 ![My GRS](https://github-readme-stats.vercel.app/api?username=octocat)
 ```
 And you will get something like this:
-![My GRS](https://github-readme-stats.vercel.app/api?username=octocat)
 
+![My GRS](https://github-readme-stats.vercel.app/api?username=octocat)
