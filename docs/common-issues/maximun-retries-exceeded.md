@@ -1,5 +1,6 @@
 ---
 title: Maximun retries exceeded
+description: Fix Github-Readme-Stats showing error "Maximun retries exceeded".
 ---
 
 ![](https://user-images.githubusercontent.com/17570430/169154428-082181cf-1296-4f3f-86f1-fcd28e5174ba.png)
