@@ -61,11 +61,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts
-  font:
-    text: Archivo
-    code: Chivo Mono
-
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language
   language: en
 
