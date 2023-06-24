@@ -98,9 +98,9 @@ plugins:
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - admonition
-  - pymdownx.details
   - pymdownx.superfences
