@@ -7,7 +7,7 @@ Deploying your own GRS Vercel instance has multiple benefits, including:
 - Include private commits counts
 
 Video Guide
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/n6d4KHSKqGk" title="UPDATE: Next Level GitHub Profile README (NEW) | GitHub Actions | Vercel | Spotify" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/n6d4KHSKqGk" title="UPDATE: Next Level GitHub Profile README (NEW) | GitHub Actions | Vercel | Spotify" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 1.  Go to [vercel.com](https://vercel.com/).
 2.  Click on `Log in`.
