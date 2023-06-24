@@ -1,5 +1,6 @@
 ---
 title: Deploy your own GRS Vercel instance
+description: Step to step guide for Deploying your own Github-Readme-Stats Vercel instance.
 ---
 
 Deploying your own GRS Vercel instance has multiple benefits, including:
