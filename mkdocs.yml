@@ -73,14 +73,14 @@ theme:
     edit: material/file-edit
     view: material/file-eye
 
+# Extra settings
+extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/PencilNavigator
       name: PencilNavigator on GitHub
 
-#
 # Plugins
-#
 plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search
   - search:
